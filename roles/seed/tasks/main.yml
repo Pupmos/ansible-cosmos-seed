@@ -1,0 +1,6 @@
+---
+- include: setup.yml
+  when: chain_id is not defined
+
+- include: launch.yml
+  when: chain_id is defined

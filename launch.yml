@@ -1,0 +1,7 @@
+- name: Launch
+  hosts: "{{ target }}"
+  become: true
+  roles:
+    - seed
+  vars:
+    node_type: seed

@@ -1,0 +1,6 @@
+[submodule "roles/common"]
+	path = roles/common
+	url = https://github.com/Pupmos/ansible-cosmos-roles-common
+[submodule "roles/monitoring"]
+	path = roles/monitoring
+	url = https://github.com/Pupmos/ansible-roles-monitoring

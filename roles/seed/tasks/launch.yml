@@ -1,0 +1,14 @@
+---
+- name: Launch a seed container
+  docker_container:
+    name: "{{ container_name }}"
+    image: ghcr.io/notional-labs/tinyseed:latest
+    command:
+    state: started
+    recreate: yes
+    restart_policy: always
+    published_ports:
+      - "{{ host_port }}:6969"
+    env:
+      ID: "{{ chain_id }}"
+      SEEDS: "{{ seeds }}"
