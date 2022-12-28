@@ -1,6 +1,6 @@
-# Ansible
+# Pupmos/ansible-cosmos-seed
 
-An ansible playbook for setting up a new Cosmos seed node.
+An Ansible playbook for setting up a new Cosmos seed node.
 
 ## Prerequisites
 
@@ -13,9 +13,7 @@ _Ideally ansible should be installed via [pip](https://pip.pypa.io/en/stable/), 
 
 This README assumes that you've already installed `debian` or `ubuntu` onto the target environment/s.
 
-## Ansible 
-
-### Setup
+## Setup
 
 1. Install the required git submodule dependencies:
 
@@ -37,7 +35,7 @@ cp inventory/hosts.example inventory/hosts
 
 4. Edit the file `inventory/hosts` and add the IP addresses of your seed node/s.
 
-## Seed 
+## Seed
 
 ### Setup
 
