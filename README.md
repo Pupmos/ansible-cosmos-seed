@@ -1,6 +1,6 @@
 # Pupmos/ansible-cosmos-seed
 
-An Ansible playbook for setting up a new Cosmos seed node.
+An Ansible playbook for Cosmos seed nodes.
 
 ## Prerequisites
 
